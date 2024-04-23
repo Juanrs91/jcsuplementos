@@ -84,9 +84,6 @@ p{
     color: #222831;
 }
 
-
-
-
 .receta{
     margin-left: 17.5%;
     padding: 1.5%;
@@ -148,3 +145,12 @@ button {
     color: #c8d0dd;
 }
 
+figcaption {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.img-fluid {
+    height: 300px;
+    object-fit: cover;
+}
