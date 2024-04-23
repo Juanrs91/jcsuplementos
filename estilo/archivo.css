@@ -29,7 +29,7 @@ footer{
     color: #000000;
 }
 .navbar-nav .nav-link:hover {
-    color: rgba(12, 18, 95, 0.849);
+    color: rgb(12, 18, 95);
 }
 h1 {
     font-family: sans-serif;
@@ -47,7 +47,17 @@ h2 {
     color: #c8d0dd;
     text-align: center;
 }
-
+.h2 {
+    color: #F26419;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: scale-down;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+}
 #imgppal{
     position: relative;
 }
@@ -55,27 +65,6 @@ h3{
     font-family: sans-serif;
     font-size: 18px;
     color: whitesmoke;
-}
-
-.vermas{
-    margin-left: 48.5%;
-    background-color: #F26419; 
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid #c8d0dd;
-    border-radius: 5px;
-    font-family: sans-serif;
-    font-size: 18px;
-}
-.contactanos{
-    margin-left: 47.75%;
-    background-color: #F26419; 
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid #c8d0dd;
-    border-radius: 5px;
-    font-family: sans-serif;
-    font-size: 18px;
 }
 
 form{
@@ -89,33 +78,14 @@ p{
     text-align: center;
     margin-bottom: 1.5%;
 }
-.bloque1{
-    margin-left: 43%;
-}
 
-.bloque2{
-    margin-left: 43%;
-}
 .copy{
     font-family: sans-serif;
     color: #222831;
 }
 
-.logo2{
-    margin-left: 47.75%;
-}
-.redes{
-    margin-left: 47.75%;
-}
-#face{
-    text-decoration: none;
-}
-#insta{
-    text-decoration: none;
-}
-#wsp{
-    text-decoration: none;
-}
+
+
 
 .receta{
     margin-left: 17.5%;
@@ -174,12 +144,7 @@ button {
     margin-left: 35%;
 }
 
-
-
-/* inicia las media queries */ 
-
-@media (min-width: 992px) {
-    .container-lg {
-        max-width: 970px;
-    }
+.copy {
+    color: #c8d0dd;
 }
+
