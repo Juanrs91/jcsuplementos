@@ -1,0 +1,86 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+body {
+  background-color: #222831;
+  position: relative;
+}
+
+header {
+  background-color: #AEB7B3;
+}
+
+footer {
+  background-color: #AEB7B3;
+  font-family: sans-serif;
+  margin-top: 1.5%;
+  padding-top: 1.5%;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.5rem;
+  width: 3rem;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+  color: #000000;
+}
+.navbar-nav .nav-link:hover {
+  color: #F26419;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #F26419;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+h2 {
+  color: #c8d0dd;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  font-family: sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.h2 {
+  color: #F26419;
+}
+
+p {
+  color: #c8d0dd;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1.5%;
+}
+
+.img-fluid {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: scale-down;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=archivo.css.map */
